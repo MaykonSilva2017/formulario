@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
     <title>Document</title>
   </head>
   <body>
@@ -63,28 +67,37 @@
 
       <div class="escolha">
           <label for="analise-dados">Análise de dados</label>
-          <input type="radio" id="analise-dados" value="analise-dados">
+          <input type="radio" id="analise-dados" value="analise-dados" name="escolha">
         </div>
 
         <div class="escolha">
           <label for="sistemas">Sistemas</label>
-          <input type="radio" name="sistemas" value="sistemas" id="sistemas">
+          <input type="radio" value="sistemas" id="sistemas" name="escolha">
        </div>
 
        <div class="escolha">
         <label for="design">Design</label>
-        <input type="radio" name="Design" value="design" id="design"> 
+        <input type="radio" value="design" id="design" name="escolha"> 
       </div>
 
       <div class="escolha">
         <label for="artes">Artes</label>
-        <input type="radio" name="Artes" value="talvez" id="artes">
+        <input type="radio" value="talvez" id="artes" name="escolha">
       </div>  
 
       <div class="escolha">
         <label for="quem_sabe">Quem sabe?</label>
-        <input type="radio" name="Quem-sabe" value="quem_sabe" id="quem_sabe">
+        <input type="radio" value="quem_sabe" id="quem_sabe" name="escolha">
       </div>
+
+      <label for="parcelas">Local de Nascimento:</label>
+      <select name="parcelas" id="parcelas">
+        <option value="GV">GV</option>
+        <option value="BH">BH</option>
+        <option value="SP">SP</option>
+        <option value="RJ">RJ</option>
+        <option value="FORA"></option>
+      </select>
 
       <div class="checkbox">
         <label for="termo">Todos os direitos reservados.</label>

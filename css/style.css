@@ -13,9 +13,8 @@ body {
 h1 {
     font-size: 4rem;
     color: black;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Anton", Times, serif, arial;
     font-style: italic;
-    text-decoration: underline;
     text-transform: uppercase;
     text-align: center;
     text-overflow: initial;
@@ -69,12 +68,16 @@ radio label {
     display: inline-block;
 }
 
-.escolha radio {
-    display: grid;
-    grid-template-columns: auto 1fr;
+.escolha {
+    display: inline-block;
+    margin-right: 10px;
+    padding-bottom: 15px;
+}
+
+.escolha input {
     align-items: center;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 
 .escolha label {
@@ -83,4 +86,10 @@ radio label {
     text-transform: capitalize;
     margin-bottom: 8px;
     margin-left: 0px;
+}
+
+select {
+    font-size: 1.2rem;
+    padding: 8px;
+    margin-bottom: 10px;
 }
