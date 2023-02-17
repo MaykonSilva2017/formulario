@@ -6,7 +6,7 @@ body {
     color: red;
     font-weight: bold;
     text-transform: uppercase;
-    background: url(../img/img1.jpg) no-repeat;
+    background: url(../img/img1.jpg) no-repeat center;
     background-attachment: fixed;
     line-height: 1.3;
 }
@@ -40,7 +40,7 @@ input {
 
 button {
     display: block;
-    padding: 8px;
+    padding: 10px 20px;
     margin-top: 30px;
     margin-left: 5px;
     font-weight: bold;
@@ -48,6 +48,7 @@ button {
     border-radius: 2px;
     border: 2px solid black;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .checkbox,
@@ -93,3 +94,8 @@ select {
     padding: 8px;
     margin-bottom: 10px;
 }
+
+textarea {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
