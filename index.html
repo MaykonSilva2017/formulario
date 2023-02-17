@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formulário Exercício</h1>
+
+    <form action="./" method="">
+      <label for="nome">Nome</label>
+      <input
+        type="text"
+        id="nome"
+        value=""
+        name="nome"
+        required
+        placeholder="Maria Silva"
+      />
+
+      <label for="cpf">CPF</label>
+      <input
+        type="text"
+        id="cpf"
+        value=""
+        name="cpf"
+        placeholder="000.000.000-00"
+        required
+      />
+
+      <label for="Senha">Senha</label>
+      <input type="password" id="Senha" value="" name="senha" required />
+
+      <label for="idade">Idade</label>
+      <input
+        type="number"
+        id="idade"
+        value=""
+        name="idade"
+        placeholder="20 anos"
+      />
+
+      <label for="peso">Peso</label>
+      <input type="text" id="peso" value="" name="peso" placeholder="50kg" />
+
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        value=""
+        name="email"
+        required
+        placeholder="maria@email.com"
+      />
+
+      <label for="email">Saída Hotel</label>
+      <input type="date" id="data" value="" name="data" required />
+
+      <p>Qual a sua faculdade?</p>
+
+      <div class="escolha">
+          <label for="analise-dados">Análise de dados</label>
+          <input type="radio" id="analise-dados" value="analise-dados">
+        </div>
+
+        <div class="escolha">
+          <label for="sistemas">Sistemas</label>
+          <input type="radio" name="sistemas" value="sistemas" id="sistemas">
+       </div>
+
+       <div class="escolha">
+        <label for="design">Design</label>
+        <input type="radio" name="Design" value="design" id="design"> 
+      </div>
+
+      <div class="escolha">
+        <label for="artes">Artes</label>
+        <input type="radio" name="Artes" value="talvez" id="artes">
+      </div>  
+
+      <div class="escolha">
+        <label for="quem_sabe">Quem sabe?</label>
+        <input type="radio" name="Quem-sabe" value="quem_sabe" id="quem_sabe">
+      </div>
+
+      <div class="checkbox">
+        <label for="termo">Todos os direitos reservados.</label>
+        <input
+          type="checkbox"
+          id="termo"
+          value="termos"
+          name="termo"
+          
+
+          <label for="anuncio">Aceito receber anúncios.</label>
+        <input
+          type="checkbox"
+          id="anuncio"
+          value="termos"
+          name="termo"
+          
+        />
+      </div>
+
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
