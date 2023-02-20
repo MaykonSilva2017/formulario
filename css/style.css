@@ -178,12 +178,69 @@ textarea {
     }
 
     .texto-principal {
-        font-size: 0.625rem;
+        font-size: 0.7rem;
         flex-wrap: wrap;
         text-align: start;
     }
 
     .questionamento-p {
-        font-size: 8px;
+        font-size: 0.7rem;
+    }
+
+    .input {
+        font-size: 0.6rem;
+        padding: 4px;
+        border: 5px solid black;
+        border-radius: 4px;
+        background: #ccc;
+        margin-bottom: 8px;
+    }
+
+    .select option {
+        font-size: 0.6rem;
+        padding: 5px 10px;
+    }
+
+    .select-options label {
+        font-size: 0.6rem;
+    }
+
+    .mensagem label {
+        font-size: 0.6rem;
+    }
+
+    .dados label {
+        font-size: 0.7rem;
+    }
+
+    .dados input {
+        padding: 5px;
+    }
+
+    .date input {
+        padding: 4px;
+    }
+
+    .date label {
+        font-size: 0.6rem;
+    }
+
+    .checkbox label {
+        font-size: 0.7rem;
+    }
+
+    .checkbox input,
+    radio input {
+        width: 10px;
+        height: 10px;
+    }
+
+    .btn-envio {
+        display: block;
+        padding: 1.5px 3px;
+    }
+
+    .escolha label {
+        font-size: 0.5rem;
     }
 }
