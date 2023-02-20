@@ -7,6 +7,13 @@ body {
     background-attachment: fixed;
     line-height: 1.3;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+
 .titulo-principal {
     font-size: 7rem;
     color: black;
@@ -101,7 +108,7 @@ radio label {
     margin-left: 0px;
 }
 
-select {
+.select-options {
     font-size: 1.2rem;
     padding: 8px;
     margin-bottom: 10px;
@@ -121,6 +128,9 @@ textarea {
     text-transform: uppercase;
 }
 
+.questionamento-p {
+    text-transform: uppercase;
+}
 @media (max-width: 800px) {
     .container {
         display: grid;
@@ -148,6 +158,32 @@ textarea {
     }
 
     .questionamento-p {
-        font-size: 1.3rem;
+        font-size: 1rem;
+    }
+
+    .select option {
+        font-size: 0.9rem;
+        padding: 7px 14px;
+    }
+
+    .btn-envio {
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width: 300px) {
+    .titulo-principal {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .texto-principal {
+        font-size: 0.625rem;
+        flex-wrap: wrap;
+        text-align: start;
+    }
+
+    .questionamento-p {
+        font-size: 8px;
     }
 }
