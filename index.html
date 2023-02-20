@@ -3,23 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Um formulário para quem ama DeadPool.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-
-    <title>Document</title>
+    
+    <title>DeadPool Form</title>
   </head>
   <body>
-    <h1>DeadPool Form</h1>
+    <div class="container">
+      <h1 class="titulo-principal">DeadPool Form</h1>
 
-    <p>
-      <span>Quem é ele?</span><br><br>
+    <p class="texto-principal">
+      <span class="texto-principal-quem">Quem é ele?</span><br><br>
       Deadpool é um personagem fictício do universo Marvel, que atua geralmente como anti-herói e ocasionalmente como vilão.
     </p>
 
-    <p>
+    <p class="texto-principal">
       Esse formulário é para você que ama o DeadPool. Coloque os seus dados abaixo.<br> 
     </p>
 
@@ -72,7 +74,7 @@
       <label for="email">Saída da última Comic-Con?</label>
       <input type="date" id="data" value="" name="data" required />
 
-      <p>O que mais você gosta no Deadpool?</p>
+      <p class="questionamento-p">O que mais você gosta no Deadpool?</p>
 
       <div class="escolha">
           <label for="analise-dados">Comediante</label>
@@ -122,8 +124,8 @@
           value="termos"
           name="termo"
           
-
-          <label for="anuncio">Aceito receber anúncios.</label>
+        <div class="anuncio">
+          <label  for="anuncio">Aceito receber anúncios.</label>
         <input
           type="checkbox"
           id="anuncio"
@@ -133,7 +135,10 @@
         />
       </div>
 
-      <button>Enviar</button>
+      </div>
+
+      <button class="btn-envio">Enviar</button>
     </form>
+   </div>
   </body>
 </html>
