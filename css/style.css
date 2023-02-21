@@ -119,8 +119,12 @@ textarea {
     display: grid;
     grid-template-columns: 1fr;
     gap: 40px;
+    width: 100%;
+    height: 100%;
 }
 
+.footer-container {
+}
 .footer-texto {
     margin-left: 15px;
     font-size: 1.5rem;
