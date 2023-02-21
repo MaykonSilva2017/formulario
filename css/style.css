@@ -35,6 +35,7 @@ label {
     display: block;
     text-transform: uppercase;
 }
+
 input {
     font-size: 1.2rem;
     padding: 15px;
@@ -91,6 +92,7 @@ radio label {
     font-size: 1.125rem;
     margin-bottom: 8px;
     margin-left: 0;
+    text-transform: capitalize;
 }
 .select-options {
     font-size: 1.2rem;
@@ -124,6 +126,10 @@ textarea {
 }
 
 .footer-container {
+    display: block;
+    box-sizing: border-box;
+    align-items: start;
+    margin: 0;
 }
 .footer-texto {
     margin-left: 15px;
@@ -138,11 +144,17 @@ textarea {
     line-height: 1.1;
     color: white;
     margin-bottom: 30px;
-    list-style: none;
+    list-style-type: none;
 }
 
 .footer-contato li a {
     color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.links:hover {
+    background: rgb(199, 30, 143);
 }
 
 @media (max-width: 800px) {
@@ -195,7 +207,7 @@ textarea {
         text-align: start;
     }
     .questionamento-p {
-        font-size: 0.7rem;
+        font-size: 1.2rem;
     }
     .input {
         font-size: 0.6rem;
@@ -240,6 +252,18 @@ textarea {
         padding: 1.5px 3px;
     }
     .escolha label {
-        font-size: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .footer-contato li {
+        font-size: 1rem;
+    }
+
+    .footer-texto {
+        font-size: 1rem;
     }
 }
