@@ -48,6 +48,7 @@ input {
     padding: 10px 20px;
     margin-top: 30px;
     margin-left: 5px;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 1.5rem;
     border-radius: 2px;
@@ -114,10 +115,14 @@ textarea {
 }
 
 .footer {
-    background: #000000;
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
 }
 
 .footer-texto {
+    margin-left: 15px;
     font-size: 1.5rem;
     line-height: 1.33;
     color: white;
