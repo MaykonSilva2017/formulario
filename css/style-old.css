@@ -1,3 +1,13 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+    }
+}
+
 body {
     padding: 0px;
     margin-left: 5px;
