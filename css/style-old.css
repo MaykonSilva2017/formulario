@@ -1,20 +1,19 @@
 body {
-    padding: 0;
-    padding: 0;
+    padding: 0px;
+    margin-left: 5px;
     font-size: 1.2rem;
     font-weight: 700;
     line-height: 1.3;
     background: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .titulo-principal {
     font-size: 7rem;
     color: #000;
     font-family: Anton, Times, serif, arial;
-    font-style: italic;
     text-transform: uppercase;
     text-align: center;
-    text-overflow: initial;
     text-shadow: rgb(233, 34, 20) 2px 2px;
     line-height: 1.3;
 }
@@ -30,8 +29,9 @@ body {
     text-rendering: optimizeSpeed;
     text-decoration: underline;
     text-transform: uppercase;
-    font-size: 2rem;
-    color: rgb(20, 2, 1);
+    font-size: 2.5rem;
+    color: rgb(197, 40, 12);
+    border-left: 10px solid rgb(197, 40, 12);
 }
 label {
     display: block;
@@ -105,7 +105,8 @@ radio label {
 }
 textarea {
     font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, "Times New Roman", Times, serif, Arial, Helvetica,
+        sans-serif;
     margin-top: 10px;
 }
 .mensagem label {
