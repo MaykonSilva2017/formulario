@@ -23,6 +23,8 @@ body {
     color: #000;
     font-family: Georgia, "Times New Roman", Times, serif;
     line-height: 1.3;
+    letter-spacing: 2;
+    text-align: justify;
 }
 .texto-principal-quem {
     text-rendering: optimizeSpeed;
@@ -115,7 +117,14 @@ textarea {
 .questionamento-p {
     text-transform: uppercase;
 }
+.link-referencia {
+    list-style: none;
+    color: #000;
+}
 
+.link-referencia:hover {
+    color: rgb(197, 40, 12);
+}
 .footer {
     background: black;
     display: grid;
@@ -155,6 +164,10 @@ textarea {
 
 .links:hover {
     background: rgb(199, 30, 143);
+}
+
+[required] {
+    border: 2px solid rgb(197, 40, 12);
 }
 
 @media (max-width: 800px) {
