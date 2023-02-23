@@ -43,6 +43,12 @@ body {
     color: rgb(197, 40, 12);
     border-left: 10px solid rgb(197, 40, 12);
 }
+
+.img-background {
+    max-width: 100%;
+    display: block;
+    opacity: 0.8;
+}
 label {
     display: block;
     text-transform: uppercase;
@@ -136,13 +142,14 @@ textarea {
 .link-referencia:hover {
     color: rgb(197, 40, 12);
 }
+
+.link-referencia:visited {
+    color: #1d079e;
+}
 .footer {
     background: black;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 40px;
-    width: 100%;
-    height: 100%;
+    display: block;
+    padding: 10px;
 }
 
 .footer-container {
