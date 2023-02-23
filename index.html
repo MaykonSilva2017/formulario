@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Maykon Silva">
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/style-old.css" />
+    <link rel="stylesheet" href="../css/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
@@ -17,33 +17,38 @@
   <body>
   <div class="container">
   <header class="header" aria-label="cabeçalho">
-    
-      <h1 class="titulo-principal" aria-label="Titulo prinicipal">DeadPool Form</h1>
-      
-
-      
+    <div class="header-div">
+      <nav>
+        <ul class="header-menu" aria-label="Navegador">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#dados">Dados do Formulário</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav> 
+    </div>
+      <h1 class="titulo-principal" aria-label="Titulo prinicipal">DeadPool Form</h1>     
   </header>
   
    <img class="img-background " src="../img/img-1.jpg" alt="Imagem do DeadPool" aria-label="Imagem do DeadPool" width="" height="">
-  <main>
+  <main class="main" id="#sobre" aria-label="Curiosidade sobre DeadPool">
     <p class="texto-principal" aria-label="texto prinicipal">
       <span class="texto-principal-quem">Quem é o DeadPool?</span><br><br>
       Deadpool (Wade Winston Wilson) é um personagem fictício do universo Marvel, que atua geralmente como anti-herói e ocasionalmente como vilão. Deadpool, cujo nome verdadeiro é Wade Winston Wilson, é um mercenário canadense marcado por ser falastrão, violento e principalmente por ser comediante e a partir ficou conhecido como o "mercenário tagarela". Tem também o fator de cura que o faz sobreviver aos piores ferimentos.<br><br>
 
-     Deadpool foi criado por Rob Liefeld e Fabian Nicieza e apareceu pela primeira vez em 1991, como um vilão em New Mutants #98 (história que no Brasil saiu dentro de Os Fabulosos X-Men #584 em 1994). Foi inspirado no vilão da DC Comics Exterminador (Deathstroke), inclusive com seu nome parodiando o alter ego deste, "Slade Wilson".<br><br>
+      Deadpool foi criado por Rob Liefeld e Fabian Nicieza e apareceu pela primeira vez em 1991, como um vilão em New Mutants #98 (história que no Brasil saiu dentro de Os Fabulosos X-Men #584 em 1994). Foi inspirado no vilão da DC Comics Exterminador (Deathstroke), inclusive com seu nome parodiando o alter ego deste, "Slade Wilson".<br><br>
 
-     A partir de um título próprio escrito por Joe Kelly e Ed McGuinness em 1998, ganhou estilo próprio, conhecido por sua capacidade de destruição, humor extremamente ácido, referências satíricas culturais e ocasionalmente a quebra da Quarta parede, se comunicando diretamente com o leitor. Assim como Wolverine, Deadpool é um produto do Projeto Arma X, do governo canadense, embora seu local de nascimento seja desconhecido, pois esconderam-no do mundo.<br><br>
+      A partir de um título próprio escrito por Joe Kelly e Ed McGuinness em 1998, ganhou estilo próprio, conhecido por sua capacidade de destruição, humor extremamente ácido, referências satíricas culturais e ocasionalmente a quebra da Quarta parede, se comunicando diretamente com o leitor. Assim como Wolverine, Deadpool é um produto do Projeto Arma X, do governo canadense, embora seu local de nascimento seja desconhecido, pois esconderam-no do mundo.<br><br>
 
-     Era originalmente um adversário dos Novos Mutantes e da X-Force, posteriormente desenvolvendo um romance com uma das participantes do grupo, Siryn, filha de Banshee da X-Force, e um título em que fazia missões junto com Cable. Foi interpretado por Ryan Reynolds em X-Men Origins: Wolverine (2009) e em seu próprio filme solo (2016), que ganhou sequência em 2018.<br><br>
+      Era originalmente um adversário dos Novos Mutantes e da X-Force, posteriormente desenvolvendo um romance com uma das participantes do grupo, Siryn, filha de Banshee da X-Force, e um título em que fazia missões junto com Cable. Foi interpretado por Ryan Reynolds em X-Men Origins: Wolverine (2009) e em seu próprio filme solo (2016), que ganhou sequência em 2018.<br><br>
 
-     referência: <a class="link-referencia" href="https://pt.wikipedia.org/wiki/Deadpool" target="_blank">https://pt.wikipedia.org/wiki/Deadpool</a>
+      referência: <a class="link-referencia" href="https://pt.wikipedia.org/wiki/Deadpool" target="_blank">https://pt.wikipedia.org/wiki/Deadpool</a>
     </p>
 
     <p class="texto-principal" aria-label="Texto segundario">
       Esse formulário é para você que ama o DeadPool. Coloque os seus dados abaixo.<br> 
     </p>
   </main>
-<section>
+<section class="sectiion-dados" id="#dados">
   <div class="dados" aria-label="Dados">
     <form action="./" method="">
       <label for="nome">Nome</label>
@@ -75,11 +80,12 @@
         id="idade"
         value=""
         name="idade"
-        placeholder="20 anos"
+        placeholder="20 anos" required
+        
       />
 
       <label for="peso">Peso</label>
-      <input type="text" id="peso" value="" name="peso" placeholder="50kg" />
+      <input type="text" id="peso" value="" name="peso" placeholder="50kg" required/>
 
       <label for="email">Email</label>
       <input
@@ -149,26 +155,20 @@
           type="checkbox"
           id="termo"
           value="termos"
-          name="termo"
+          name="termo"/>
+      </div>
           
-        <div class="anuncio">
-          <label  for="anuncio">Aceito receber anúncios.</label>
+      <div class="anuncio">
+        <label  for="anuncio">Aceito receber anúncios.</label>
         <input
           type="checkbox"
           id="anuncio"
           value="termos"
-          name="termo"
-          
+          name="termo"        
         />
-      </div>
-
-      
-
+      </div>  
       <button class="btn-envio">Enviar</button>
-
-    </section>
-    
-    
+    </section>       
       <footer class="footer" id="contato" aria-label="Rodape do site">
         <div class="footer-container">
           <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa.</p>
@@ -179,10 +179,7 @@
             <li><a class="links" href="https://www.linkedin.com/in/maykon-silva-35450722/" target="_blank">Linkedin</a></li></li>
           </ul>
         </div>
-      </footer>
-    
-
-     
+      </footer>       
    </div>
   </body>
 </html>
