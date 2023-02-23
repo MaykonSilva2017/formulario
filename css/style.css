@@ -21,7 +21,7 @@ body {
 .header-menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     justify-content: right;
 }
 
@@ -47,10 +47,8 @@ body {
 
 .header-div {
     background: #000000;
-    width: 100%;
-    height: 100%;
-    padding: 15px;
-    margin: 5px;
+    padding: 15px 7.5px;
+    margin: 0 auto;
 }
 .titulo-principal {
     font-size: 7rem;
@@ -154,6 +152,7 @@ radio label {
 .select-options select {
     padding: 5px;
 }
+
 textarea {
     font-size: 1.5rem;
     font-family: Georgia, "Times New Roman", Times, serif, Arial, Helvetica,
@@ -185,28 +184,31 @@ textarea {
     background: black;
     display: block;
     padding: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-container {
     display: block;
     box-sizing: border-box;
-    align-items: start;
-    margin: 0;
 }
 .footer-texto {
     margin-left: 15px;
     font-size: 1.5rem;
     line-height: 1.33;
     color: white;
+    text-align: center;
 }
 
 .footer-contato li {
+    display: block;
     font-weight: bold;
     font-size: 1rem;
     line-height: 1.1;
     color: white;
     margin-bottom: 30px;
     list-style-type: none;
+    text-align: center;
 }
 
 .footer-contato li a {
@@ -216,7 +218,7 @@ textarea {
 }
 
 .links:hover {
-    background: rgb(199, 30, 143);
+    background: rgba(197, 40, 12, 0.2);
 }
 
 [required] {
